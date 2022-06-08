@@ -1,0 +1,12 @@
+.myitemlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.myh3 {
+    color: rgb(0, 128, 255);
+    font-size: 40px
+
+}
