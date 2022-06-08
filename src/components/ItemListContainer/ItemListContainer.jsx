@@ -1,11 +1,9 @@
 import React from 'react'
 import './ItemListContainer.css';
 
-function ItemListContainer() {
+function ItemListContainer({greeting}) {
   return (
-    <div className='myitemlist'>
-      <h3 className='myh3'>Ropa y accesorios para todas las etapas de la niñez</h3>
-    </div>
+      <h3 className=' myitemlist myh3'>{greeting}</h3>
   )
 }
 

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <MUNavBar/>
-      <ItemListContainer/>
+      <ItemListContainer greeting={'Ropa y accesorios para todas las etapas de la niñez'}/>
     </div>
   );
 }
