@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <MUNavBar />
       <ItemListContainer greeting={'Ropa y accesorios para todas las etapas de la niñez'} />
-      <ItemCount inicial={1} max={10} onAdd={onAdd} />
+      {/* <ItemCount inicial={1} max={10} onAdd={onAdd} /> */}
     </div>
   );
 }
